@@ -1,0 +1,8 @@
+# Defina o comportamento padrão para todos os arquivos de texto.
+* text=auto eol=lf
+
+# Garanta que arquivos específicos sempre usem LF.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
